@@ -15,7 +15,7 @@ On Hue worked with SQL to practice with two CSV files containing mock Skype info
 - <b>DISTINCT</b> 
 - <b>LIMIT</b> 
 
-<h2>Software Used </h2>
+<h2>Materials Used </h2>
 
 - <b>Hue</b>
 - <b>SQL</b>
