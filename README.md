@@ -13,7 +13,9 @@ On Hue worked with SQL to practice with two CSV files containing mock Skype info
 - <b>GROUP BY</b> 
 - <b>JOIN</b> 
 - <b>DISTINCT</b> 
-- <b>LIMIT</b> 
+- <b>LIMIT</b>
+- <b>AVG</b>
+- <b>COUNT</b> 
 
 <h2>Materials Used </h2>
 
