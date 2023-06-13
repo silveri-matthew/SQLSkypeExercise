@@ -24,22 +24,28 @@ On Hue worked with SQL to practice with two CSV files containing mock Skype info
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Cases Map: <br/>
-<img src="https://imgur.com/QVce0yj.png" height="80%" width="80%" alt="Project walk-through"/>
+Show the data structures and the first 10 records of each table. Use a SELECT query to show the records: <br/>
+<img src="https://imgur.com/M9n9w0F.png" height="80%" width="80%" alt="Project walk-through"/>
 <br />
 <br />
-Fatality Map:  <br/>
-<img src="https://imgur.com/0kvI9gK.png" height="80%" width="80%" alt="Project walk-through"/>
+How many females older than 25 found Skype to be easy to use (i.e., EasyToUse >= 4):  <br/>
+<img src="https://imgur.com/SzwRLZx.png" height="80%" width="80%" alt="Project walk-through"/>
 <br />
-Stacked Bar Chart:  <br/>
-<img src="https://imgur.com/CpNt3wP.png" height="80%" width="80%" alt="Project walk-through"/>
 <br />
-Filter by City:  <br/>
-<img src="https://imgur.com/w1NuEcs.png" height="80%" width="80%" alt="Project walk-through"/>
+Show UID, Gender, Age, EasyToUse and FutureUse of the US users who spent more time in each session of Skype (i.e., UseDuration = 1 to 3 hours and UseDuration = 30 – 60 minutes):  <br/>
+<img src="https://imgur.com/qPyoFrL.png" height="80%" width="80%" alt="Project walk-through"/>
+<br />
+<br />
+Show the average FutureUse by country and sort the results by country:  <br/>
+<img src="https://imgur.com/gveyjqp.png" height="80%" width="80%" alt="Project walk-through"/>
+<br />
+<br />
+Implementing a query to show whether there is a gender difference in UseDuration:  <br/>
+<img src="https://imgur.com/hxkFiTv.png" height="80%" width="80%" alt="Project walk-through"/>
 <br />
 <p align="left">
 <br />
-Created two maps that display different results. The map is built off of more cases the larger and more red the color. The stacked bar chart is used to help display the cities in one list to compare them both directly. The visualization can also be filtered down by selecting a city or cities within the bar chart.
+The last question gave me more freedom to come up with an answer. It was more open-ended and for this question I decided to group and order by gender while counting the total. I also had to join the two csv files to make it work. The result was a nice, clean and easy to interpret answer.
 <br />
 </p>
 
